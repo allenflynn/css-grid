@@ -1,8 +1,10 @@
 .story {
   &__pictures {
     background-color: $color-grey-dark-1;
+    grid-column: full-start / col-end 4;
   }
   &__content {
-    background-color: $color-grey-dark-2;
+    background-color: orangered;
+    grid-column: col-end 4 / full-end;
   }
 }
